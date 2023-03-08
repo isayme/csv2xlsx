@@ -1,3 +1,3 @@
 builds:
-  ldflags:
-    - -s -w -X main.APP_VERSION={{.Version}}
+  - ldflags:
+      - -s -w -X main.APP_VERSION={{.Version}}
